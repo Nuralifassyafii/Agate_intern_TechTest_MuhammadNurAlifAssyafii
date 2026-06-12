@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a039a67a247a704dadc0b305b06a3a3, type: 3}
+  m_Name: New Narrative Node
+  m_EditorClassIdentifier: 
+  nodeId: 
+  isCompleted: 0
+  exposition: hello
+  responses:
+  - responseId: Response0001
+    text: Finish quest 1
+    type: 0
+    skillType: 0
+    prerequisite:
+      type: 0
+      questId: 
+      itemId: 
+      conditionId: 
+    outcomes:
+      successOutcome: {fileID: 0}
+      failedOutcome: {fileID: 0}
+      neutralOutcome: {fileID: 11400000, guid: b7f6558d62a0b79459a37c72b4adf896, type: 2}

@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "CustomActions",
+    "maps": [
+        {
+            "name": "Prabu",
+            "id": "1083be3b-539b-4764-b4d6-185a5806aa5c",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "aa1fad1e-7658-4493-adc6-3f6e65146004",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5c0fcb77-ef49-48a0-8444-c3e896dc5195",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

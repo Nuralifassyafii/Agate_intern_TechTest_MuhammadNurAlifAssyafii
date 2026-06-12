@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "InputUI",
+    "maps": [
+        {
+            "name": "InputClick",
+            "id": "2d2fd0e7-ef96-45d7-a167-6221c6a2b372",
+            "actions": [
+                {
+                    "name": "HoldClick",
+                    "type": "Button",
+                    "id": "916f2fa3-1970-46aa-a054-d9bd18c68f3b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6a8faded-9d9c-4224-8a94-e51916c9503c",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HoldClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
