@@ -51,15 +51,15 @@ public class PlayerManager : MonoBehaviour,IDataPersistent
 
     private void Update()
     {
-        healthText.text = "X"+_instantiatePlayerDiceSO.health.ToString();
-        sanityText.text = "X" + _instantiatePlayerDiceSO.sanity.ToString();
-        expText.text = "X" + _instantiatePlayerDiceSO.exp.ToString();
+        //healthText.text = "X"+_instantiatePlayerDiceSO.health.ToString();
+        //sanityText.text = "X" + _instantiatePlayerDiceSO.sanity.ToString();
+        //expText.text = "X" + _instantiatePlayerDiceSO.exp.ToString();
     }
 
     private void Start()
     {
-        healthText = GameObject.Find("PlayerHealthText").GetComponent<TMP_Text>();
-        sanityText = GameObject.Find("PlayerSanityText").GetComponent<TMP_Text>();
-        expText = GameObject.Find("PlayerExpText").GetComponent<TMP_Text>();
+        //healthText = GameObject.Find("PlayerHealthText").GetComponent<TMP_Text>();
+        //sanityText = GameObject.Find("PlayerSanityText").GetComponent<TMP_Text>();
+        //expText = GameObject.Find("PlayerExpText").GetComponent<TMP_Text>();
     }
 }

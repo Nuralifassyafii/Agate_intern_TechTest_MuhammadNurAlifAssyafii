@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class SkillDiceManagerPerDice : MonoBehaviour, IDataPersistent
 {
@@ -16,7 +15,6 @@ public class SkillDiceManagerPerDice : MonoBehaviour, IDataPersistent
     private SkilllDiceUIManager _skillDiceUIManager;
     private float sisaWaktuCountdown;
     [SerializeField] private int indexSkillForSaveData;
-
 
     public void ShowValue(TMP_Text textfield, int skillFaceIndex)
     {
